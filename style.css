@@ -67,3 +67,20 @@ input {
   display: grid;
   grid-template-rows: 3fr 1fr 1fr;
 }
+
+.feed {
+  height: 100%;
+  overflow: hidden;
+}
+
+.post {
+  height: 10%;
+}
+.article-list {
+  height: 100%;
+  overflow: scroll;
+}
+
+article {
+  height: 50%;
+}
