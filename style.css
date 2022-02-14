@@ -84,3 +84,7 @@ input {
 article {
   height: 50%;
 }
+
+.news {
+  height: 15%;
+}
