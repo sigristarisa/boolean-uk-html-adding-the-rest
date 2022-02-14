@@ -20,8 +20,7 @@ main {
   height: 90%;
   background-color: rgb(212, 212, 212);
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  gap: 7px;
+  place-items: center;
 }
 
 aside {
@@ -38,6 +37,20 @@ aside {
   margin: 5px;
 }
 
+.sub-container {
+  border: 2px dotted rgb(161, 214, 111);
+  margin: 5px;
+}
+
+.main-container {
+  height: 100%;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 7px;
+}
+
+/* --- Header section --- */
 .menu {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -46,11 +59,6 @@ aside {
 .menu-input {
   display: grid;
   align-items: center;
-}
-
-.sub-container {
-  border: 2px dotted rgb(161, 214, 111);
-  margin: 5px;
 }
 
 input {
@@ -63,11 +71,13 @@ input {
   background-color: rgb(212, 212, 212);
 }
 
+/* main left side */
 .profile {
   display: grid;
   grid-template-rows: 3fr 1fr 1fr;
 }
 
+/* main center / feed */
 .feed {
   height: 100%;
   overflow: hidden;
@@ -85,6 +95,7 @@ article {
   height: 50%;
 }
 
+/* main right side */
 .news {
   height: 15%;
 }

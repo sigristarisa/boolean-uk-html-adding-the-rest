@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- HEADER -->
     <header>
       <div class="container logo"></div>
       <div class="container menu-input">
@@ -21,35 +22,44 @@
         <div class="menu-icon sub-container"></div>
       </div>
     </header>
+
+    <!-- MAIN -->
     <main>
-      <aside class="left-side">
-        <div class="container profile">
-          <div class="sub-container profile-photo"></div>
-          <div class="sub-container profile-views"></div>
-          <div class="sub-container profile-my-items"></div>
+      <div class="main-container">
+        <!-- MAIN LEFT SIDE -->
+        <aside class="left-side">
+          <div class="container profile">
+            <div class="sub-container profile-photo"></div>
+            <div class="sub-container profile-views"></div>
+            <div class="sub-container profile-my-items"></div>
+          </div>
+          <div class="container visitor-analytics"></div>
+          <div class="container events"></div>
+        </aside>
+
+        <!-- MAIN CENTER / FEED -->
+        <div class="feed">
+          <div class="container post"></div>
+          <div class="container article-list">
+            <article class="sub-container"></article>
+            <article class="sub-container"></article>
+            <article class="sub-container"></article>
+          </div>
         </div>
-        <div class="container visitor-analytics"></div>
-        <div class="container events"></div>
-      </aside>
-      <div class="feed">
-        <div class="container post"></div>
-        <div class="container article-list">
-          <article class="sub-container"></article>
-          <article class="sub-container"></article>
-          <article class="sub-container"></article>
-        </div>
+
+        <!-- MAIN RIGHT SIDE -->
+        <aside class="right-side">
+          <ul class="container news-list">
+            <li class="sub-container news"></li>
+            <li class="sub-container news"></li>
+            <li class="sub-container news"></li>
+            <li class="sub-container news"></li>
+            <li class="sub-container news"></li>
+          </ul>
+          <div class="container"></div>
+          <div class="container"></div>
+        </aside>
       </div>
-      <aside class="right-side">
-        <ul class="container news-list">
-          <li class="sub-container news"></li>
-          <li class="sub-container news"></li>
-          <li class="sub-container news"></li>
-          <li class="sub-container news"></li>
-          <li class="sub-container news"></li>
-        </ul>
-        <div class="container"></div>
-        <div class="container"></div>
-      </aside>
     </main>
   </body>
 </html>
