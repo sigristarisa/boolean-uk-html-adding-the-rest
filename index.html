@@ -11,8 +11,8 @@
     <!-- HEADER -->
     <header>
       <div class="container logo"></div>
-      <div class="container menu-input">
-        <input type="text" />
+      <div class="container search-container">
+        <input type="text" class="input-search" />
       </div>
       <div class="container menu">
         <div class="menu-icon sub-container"></div>
@@ -39,12 +39,27 @@
 
         <!-- MAIN CENTER / FEED -->
         <div class="feed">
-          <div class="container post"></div>
-          <div class="container article-list">
-            <article class="sub-container"></article>
-            <article class="sub-container"></article>
-            <article class="sub-container"></article>
+          <div class="container">
+            <div class="sub-container post">
+              <div class="container-red icon"></div>
+              <input
+                type="text"
+                value="start a post"
+                class="input-post container-red"
+              />
+            </div>
+            <div class="sub-container media">
+              <div class="container-red media-list photo"></div>
+              <div class="container-red media-list video"></div>
+              <div class="container-red media-list document"></div>
+              <div class="container-red media-list write-article"></div>
+            </div>
           </div>
+          <ul class="container article-list">
+            <li class="sub-container article"></li>
+            <li class="sub-container article"></li>
+            <li class="sub-container article"></li>
+          </ul>
         </div>
 
         <!-- MAIN RIGHT SIDE -->

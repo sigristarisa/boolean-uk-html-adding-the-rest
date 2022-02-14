@@ -42,6 +42,10 @@ aside {
   margin: 5px;
 }
 
+.container-red {
+  border: 2px dotted rgb(219, 68, 68);
+  margin: 5px;
+}
 .main-container {
   height: 100%;
   width: 80%;
@@ -61,7 +65,7 @@ aside {
   align-items: center;
 }
 
-input {
+.input-search {
   width: 30%;
   height: 80%;
   margin: 5px;
@@ -84,18 +88,28 @@ input {
 }
 
 .post {
-  height: 10%;
+  display: grid;
+  grid-template-columns: auto 1fr;
 }
+
+.media {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
 .article-list {
   height: 100%;
   overflow: scroll;
+  list-style: none;
+  padding: 0;
 }
 
-article {
+.article {
   height: 50%;
 }
 
 /* main right side */
+
 .news {
   height: 15%;
 }
