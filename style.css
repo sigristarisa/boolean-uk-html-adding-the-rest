@@ -10,21 +10,21 @@ body {
 }
 
 header {
-  height: 10%;
+  height: 100px;
   display: grid;
   grid-template-columns: 1fr 5fr 2fr 1fr;
   gap: 5px;
 }
 
 main {
-  height: 90%;
+  height: 900px;
   background-color: rgb(212, 212, 212);
   display: grid;
   place-items: center;
 }
 
 aside {
-  height: 90%;
+  height: 820px;
   display: grid;
   grid-template-rows: 2fr 1fr 1fr;
 }
@@ -47,8 +47,8 @@ aside {
   margin: 5px;
 }
 .main-container {
-  height: 100%;
-  width: 80%;
+  height: 900px;
+  width: 1200px;
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   gap: 7px;
@@ -66,8 +66,8 @@ aside {
 }
 
 .input-search {
-  width: 30%;
-  height: 80%;
+  width: 220px;
+  height: 70px;
   margin: 5px;
 
   border: solid black 2px;
@@ -83,7 +83,7 @@ aside {
 
 /* main center / feed */
 .feed {
-  height: 100%;
+  height: 900px;
   overflow: hidden;
 }
 
@@ -98,18 +98,18 @@ aside {
 }
 
 .article-list {
-  height: 100%;
+  height: 900px;
   overflow: scroll;
   list-style: none;
   padding: 0;
 }
 
 .article {
-  height: 50%;
+  height: 450px;
 }
 
 /* main right side */
 
 .news {
-  height: 15%;
+  height: 60px;
 }
