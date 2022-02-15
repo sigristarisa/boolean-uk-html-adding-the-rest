@@ -8,15 +8,20 @@
     <link rel="stylesheet" href="../Discord/style.css" />
   </head>
   <body>
+    <!-- SERVER BAR -->
     <aside class="container-blue server-bar">
-      <div class="container-green server"></div>
-      <div class="container-green server"></div>
-      <div class="container-green server"></div>
-      <div class="container-green server"></div>
-      <div class="container-green server"></div>
-      <div class="container-green server"></div>
-      <div class="container-green server"></div>
+      <ul class="server-list">
+        <li class="container-green server"></li>
+        <li class="container-green server"></li>
+        <li class="container-green server"></li>
+        <li class="container-green server"></li>
+        <li class="container-green server"></li>
+        <li class="container-green server"></li>
+        <li class="container-green server"></li>
+      </ul>
     </aside>
+
+    <!-- CHANNEL BAR -->
     <aside class="container-blue channel-bar">
       <div class="container-green server-name">
         <h2>Boolean UK</h2>
@@ -41,6 +46,32 @@
       </ul>
       <div class="container-green profile"></div>
     </aside>
-    <main class="container-blue"></main>
+
+    <!-- CHANNEL CONTENT -->
+    <main class="container-blue">
+      <div class="container-green channel-name-header">
+        <h2>Class-1</h2>
+        <ul class="icon-wrapper">
+          <li class="container-red icon"></li>
+          <li class="container-red icon"></li>
+          <li class="container-red icon"></li>
+          <li class="container-red">
+            <input type="text" value="search" />
+          </li>
+          <li class="container-red icon"></li>
+          <li class="container-red icon"></li>
+        </ul>
+      </div>
+      <div class="container-green welcome"></div>
+      <ul class="container-green feed-list">
+        <li class="container-red feed"></li>
+        <li class="container-red feed"></li>
+        <li class="container-red feed"></li>
+        <li class="container-red feed"></li>
+      </ul>
+      <div class="container-green post">
+        <input type="text" value="write a message" />
+      </div>
+    </main>
   </body>
 </html>
