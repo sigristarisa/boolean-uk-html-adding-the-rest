@@ -31,6 +31,10 @@ body {
   background-color: rgb(236, 236, 236);
 }
 
+.bg-grey {
+  background-color: rgb(202, 196, 196);
+}
+
 .underline {
   border-bottom: rgb(197, 197, 197) 1px solid;
 }
@@ -120,7 +124,7 @@ h3 {
   height: 20px;
   margin-bottom: 5px;
 
-  background-color: rgb(167, 161, 161);
+  background-color: rgb(202, 196, 196);
 }
 
 .profile {
@@ -170,8 +174,26 @@ h3 {
 
 .feed {
   height: 80px;
+  padding: 8px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 5px;
 }
 
-.post {
+.message {
   height: 50px;
+  font-size: 14px;
+}
+
+.input-message {
+  width: 1500px;
+  height: 30px;
+  margin: 10px;
+  padding-left: 5px;
+
+  color: grey;
+
+  border: none;
+  border-radius: 5px;
 }
