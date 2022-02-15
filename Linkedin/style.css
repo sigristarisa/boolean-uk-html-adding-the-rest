@@ -9,11 +9,13 @@ body {
   height: 100vh;
 }
 
+header {
+  height: 100px;
+}
+
 main {
   height: 900px;
   background-color: rgb(212, 212, 212);
-  display: grid;
-  place-items: center;
 }
 
 aside {
@@ -60,18 +62,23 @@ aside {
 .logo {
   width: 100px;
 }
+.search-bar-wrapper {
+  display: grid;
+  align-items: center;
+}
 
 .search-bar {
   width: 220px;
   height: 50px;
   margin: 5px;
-
   border: solid black 2px;
   border-radius: 10px;
   background-color: rgb(212, 212, 212);
 }
 
 .menu {
+  padding: 0;
+  list-style: none;
   display: grid;
   grid-auto-flow: column;
   align-items: center;
@@ -83,12 +90,12 @@ aside {
 }
 
 /* main left side */
-.profile {
-  display: grid;
-  grid-template-rows: 3fr 1fr 1fr;
+.profile-content {
+  width: 200px;
+  height: 100px;
 }
 
-/* main center / feed */
+/* main center | feed */
 .feed {
   height: 900px;
   overflow: hidden;
@@ -127,7 +134,6 @@ aside {
 }
 
 /* main right side */
-
 .news-list {
   display: grid;
   place-items: center;
