@@ -26,6 +26,22 @@ body {
   border: rgb(184, 68, 68) 2px dashed;
 }
 
+/* UTILITY STYLES */
+.bg-light-grey {
+  background-color: rgb(236, 236, 236);
+}
+
+.underline {
+  border-bottom: rgb(197, 197, 197) 1px solid;
+}
+
+/* GRID STYLES */
+.grid-two-column___big-left {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+}
+
 /* MAIN STYLES */
 /* server bar */
 .server-bar {
@@ -53,14 +69,14 @@ body {
   align-items: center;
 }
 
-h2 {
+h3 {
   margin: 0;
   font-size: 16px;
 }
 
 .invite-people {
   height: 200px;
-  padding: 8px;
+  padding: 10px;
 
   display: grid;
   place-items: center;
@@ -70,20 +86,30 @@ h2 {
   width: 50px;
   height: 50px;
   border-radius: 50px;
+
+  background-color: white;
 }
 
 .invite-text {
   width: 150px;
   height: 50px;
+
+  font-size: 14px;
+  text-align: center;
 }
 
 .invite-button {
   width: 120px;
-  height: 30px;
+  height: 40px;
+
+  color: white;
+  background-color: rgb(100, 132, 201);
+  border: none;
+  border-radius: 5px;
 }
 
 .channel-list {
-  height: 620px;
+  height: 680px;
   padding: 8px;
   margin: 0;
 
@@ -93,19 +119,22 @@ h2 {
 .channel {
   height: 20px;
   margin-bottom: 5px;
+
+  background-color: rgb(167, 161, 161);
 }
 
 .profile {
   height: 50px;
+
+  display: grid;
+  grid-template-columns: 1fr auto repeat(3, 1fr);
+  place-items: center;
 }
 
 /* Channel Content */
 .channel-name-header {
   height: 50px;
   padding-left: 8px;
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  align-items: center;
 }
 
 .icon-wrapper {
@@ -127,7 +156,9 @@ h2 {
 }
 
 .welcome {
-  height: 300px;
+  height: 800px;
+  padding: 8px;
+  align-items: end;
 }
 
 .feed-list {
@@ -138,5 +169,9 @@ h2 {
 }
 
 .feed {
+  height: 80px;
+}
+
+.post {
   height: 50px;
 }
