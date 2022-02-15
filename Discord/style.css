@@ -2,17 +2,17 @@
   box-sizing: border-box;
 }
 
-/* Base Styles */
+/* BASE STYLES */
 body {
   width: 100vw;
   height: 100vh;
   margin: 0;
 
   display: grid;
-  grid-template-columns: 1fr 5fr 10fr;
+  grid-template-columns: 1fr 3fr 15fr;
 }
 
-/* Container Styles */
+/* CONTAINER STYLES */
 .container-blue {
   border: rgb(0, 183, 255) 2px dashed;
 }
@@ -21,14 +21,29 @@ body {
   border: rgb(68, 184, 68) 2px dashed;
 }
 
-/* Main Styles */
-.server-bar {
-}
-
+/* MAIN STYLES */
+/* server bar */
 .server {
   width: 50px;
   height: 50px;
   margin: 10px auto;
 
   border-radius: 50px;
+}
+
+/* channel bar */
+.server-name {
+  height: 50px;
+}
+
+.invite-people {
+  height: 250px;
+}
+
+.channel-list {
+  height: 620px;
+}
+
+.profile {
+  height: 50px;
 }
