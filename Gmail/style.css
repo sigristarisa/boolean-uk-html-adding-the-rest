@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+/* BASE STYLES */
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+header {
+  height: 75px;
+}
+
+main {
+  height: 925px;
+}
+
+/* GRID STYLES */
+.three-column__expand-two {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.two-column__expand-two {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+/* MAIN STYLES */
+
+/* CONTAINER STYLES */
+.ct-blue {
+  border: rgb(99, 99, 243) 2px dashed;
+}
+
+.ct-green {
+  border: rgb(105, 223, 111) 2px dashed;
+}
+
+.ct-red {
+  border: rgb(247, 102, 102) 2px dashed;
+}
