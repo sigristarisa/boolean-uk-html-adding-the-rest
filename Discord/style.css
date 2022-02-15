@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 /* BASE STYLES */
@@ -21,6 +22,10 @@ body {
   border: rgb(68, 184, 68) 2px dashed;
 }
 
+.container-red {
+  border: rgb(184, 68, 68) 2px dashed;
+}
+
 /* MAIN STYLES */
 /* server bar */
 .server {
@@ -34,14 +39,51 @@ body {
 /* channel bar */
 .server-name {
   height: 50px;
+  padding-left: 8px;
+  display: grid;
+  align-items: center;
+}
+
+h2 {
+  margin: 0;
+  font-size: 16px;
 }
 
 .invite-people {
-  height: 250px;
+  height: 200px;
+  padding: 8px;
+
+  display: grid;
+  place-items: center;
+}
+
+.invite-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.invite-text {
+  width: 150px;
+  height: 50px;
+}
+
+.invite-button {
+  width: 120px;
+  height: 30px;
 }
 
 .channel-list {
   height: 620px;
+  padding: 8px;
+  margin: 0;
+
+  list-style: none;
+}
+
+.channel {
+  height: 20px;
+  margin-bottom: 5px;
 }
 
 .profile {
